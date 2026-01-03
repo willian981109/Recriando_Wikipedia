@@ -1,0 +1,165 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Naruto img {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+}
+
+.imagem-principal img {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+}
+
+.Sasuke img { 
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+}
+
+.Sakura img {
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+}
+
+.Kakashi img {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+}
+
+.outros img {
+     max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* Corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f6f6;
+    color: #202122;
+    line-height: 1.6;
+}
+
+/* Logo */
+    .logo {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+
+/* Barra separadora */
+.bar {
+    height: 1px;
+    background-color: #dcdcdc;
+}
+
+/* Layout principal */
+.content {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+/* Sidebar esquerda */
+.sidebar {
+    width: 200px;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #0645ad;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+.main {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.main h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.main h2 {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.main p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Âncoras (lado direito) */
+.anchors {
+    width: 200px;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.anchors h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.anchors ul {
+    list-style: none;
+}
+
+.anchors a {
+    text-decoration: none;
+    color: #0645ad;
+}
+
+.anchors a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+.footer {
+    height: 50px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+}
