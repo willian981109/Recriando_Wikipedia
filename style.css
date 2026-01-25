@@ -46,21 +46,18 @@
 /* Corpo da página */
 body {
   
-    background: linear-gradient(#0607079d, #ecb70896, #e270059a, #1e8fffab) ;
+    background: linear-gradient(#000000, #200131cb, #645a69da, #573a9cd2) ;
     min-height: 100%;
     margin: 0%;
     
 }
 
 .logo {
-  background: linear-gradient( /*esse trecho linear esta off o back-size esta por cima tem opçao de ajustar depois afins de estudo*/
-    rgba(18, 2, 245, 0.486),
-    rgba(250, 1, 1, 0.623)
-  );
-  background-image: url(assets/images/wikipedia_PNG4.png);
+  background-image:url(assets/images/madara.obito.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center 12%;
   background-repeat: no-repeat;
+  min-height: 220px;
   padding: 20px;
 
   display: flex;
@@ -80,8 +77,10 @@ body {
 
 /* Barra separadora */
 .bar {
-    height: 1px;
-    background-color: #dcdcdc;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #000000;
+    
 }
 
 /* Layout principal */
@@ -99,7 +98,11 @@ body {
     width: 200px;
     background-image: url(https://e0.pxfuel.com/wallpapers/568/923/desktop-wallpaper-sasuke-mangekyou-sharingan-sasuke-face.jpg);
     padding: 15px;
-    border: 1px solid #ddd;
+    border-width: 2px;
+    border-style: inset; 
+    border-color: #000000;
+    border-radius: 20px;
+    box-shadow:  -10px 5px 20px 3px rgb(64, 4, 161);
 }
 
 .sidebar h2 {
@@ -130,15 +133,21 @@ body {
 /* Conteúdo principal */
 .main {
     flex: 1;
-    background: radial-gradient(#0607079d, #aa08dbab, #06e9e99d, #f7020283);
+    background: radial-gradient(#ffffff, #ecad00);
     padding: 20px;
-    border: 1px solid #ddd;
+    border-width: 2px;
+    border-style: groove; 
+    border-color: #000000;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 5px rgba(173, 3, 102, 0.986)
 }
 
 .main h1 {
+   
     font-size: 75px;
     margin-bottom: 15px;
     text-align: center;
+    text-shadow: 10px 5px 10px rgba(105, 3, 173, 0.842);    
     background-image: url(https://www.shutterstock.com/image-vector/purple-rinnegan-circle-outline-geometric-260nw-2416292487.jpg);
     background-size: cover;
     background-position: center;
@@ -149,15 +158,23 @@ body {
 }
 
 .main h2 {
-    font-size: 22px;
+    font-size: 2rem;
     margin-top: 25px;
     margin-bottom: 10px;
     border-bottom: 1px solid #ddd;
 }
 
+.main h3 {
+    border-bottom: 1px solid #ddd;
+    margin-top: 25px;
+    font-size: 1.5rem;
+
+}
+
 .main p {
     margin-bottom: 15px;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Âncoras (lado direito) */
@@ -166,7 +183,11 @@ body {
     background-image: url(https://e0.pxfuel.com/wallpapers/568/923/desktop-wallpaper-sasuke-mangekyou-sharingan-sasuke-face.jpg);
     background-position: right top;
     padding: 15px;
-    border: 1px solid #ddd;
+    border-width: 2px;
+    border-style: outset; 
+    border-color: #000000;
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px 3px rgba(200, 20, 20, 0.6) ;
 }
 
 .anchors h2 {
@@ -197,8 +218,18 @@ body {
 /* Rodapé */
 .footer {
     height: 100px;
-    margin-top: 30px;
-    background-image: url();
-    border-top: 1px solid #ddd;
+    background: radial-gradient(#9302f39d, #dfe4dea8, #2422222c);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+     border-width: 5px;
+    border-style: ridge; 
+    border-color: #000000;
+    border-radius: 20px;
+
+    
+    
+
+    
 }
 
