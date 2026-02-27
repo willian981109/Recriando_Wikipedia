@@ -37,7 +37,7 @@ Reproduzir uma estrutura semelhante à Wikipédia aplicando:
 
 ## 📸 Preview
 
-![Preview do Projeto](assets/images/preview.png)
+![Preview do Projeto](assets/images/preview.png.png)
 
 ---
 
